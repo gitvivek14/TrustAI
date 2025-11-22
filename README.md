@@ -51,32 +51,33 @@ Not a generic chatbot—an intelligent companion.
 ```mermaid
 graph TD
     subgraph Client
-        UI[React + Vite Dashboard]
-        Alert[Global Watchdog Overlay]
+        UI["React + Vite Dashboard"]
+        Alert["Global Watchdog Overlay"]
     end
 
     subgraph Orchestrator
-        Node[Node.js + Express]
-        Socket[Socket.io Server]
-        Agents[AI Agents (Explain/Chat)]
+        Node["Node.js + Express"]
+        Socket["Socket.io Server"]
+        Agents["AI Agents — Explain & Chat"]
     end
 
     subgraph Intelligence
-        Python[Python Flask API]
-        ML[Scikit-Learn Models]
-        SHAP[SHAP Explainer]
+        Python["Python Flask API"]
+        ML["Scikit-Learn Models"]
+        SHAP["SHAP Explainer"]
     end
 
     UI -- "HTTP REST" --> Node
     Node -- "Internal API" --> Python
     Python -- "Inference" --> ML
-
+    
     Node -- "Prompt Context" --> Agents
-    Agents -- "Gemini API" --> GoogleCloud[Gemini 1.5 Flash]
-
+    Agents -- "Gemini API" --> GoogleCloud["Gemini 1.5 Flash"]
+    
     Python -- "Anomaly Detected (-1)" --> Node
     Node -- "Socket Event" --> UI
     UI -- "Critical Alert" --> Alert
+
 ```
 
 ---
