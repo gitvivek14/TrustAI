@@ -1,0 +1,70 @@
+# General
+.DS_Store
+.env
+.idea/
+.vscode/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Node.js (Backend and Frontend)
+node_modules/
+dist/
+build/
+coverage/
+
+# Frontend specific (e.g., React, Vue, Angular)
+# Add specific build output directories if different from 'build/' or 'dist/'
+# For example, for Create React App:
+# build/
+
+# Backend specific (e.g., Node.js with Express, Python with Django/Flask, Ruby on Rails)
+# Node.js
+# If your backend generates specific files like compiled JavaScript:
+# *.js.map
+# *.d.ts
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.env/
+
+# Ruby on Rails
+# .bundle/
+# log/*.log
+# tmp/
+# public/assets/
+
+# Database related
+*.sqlite3
+*.db
+*.sql
+data/*.db # Or specific paths for your database files
+
+# IDE and Editor specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Operating System specific
+.DS_Store
+Thumbs.db
+
+# Docker
+# If you are building images, you might want to ignore context files
+# .dockerignore should be used for this, but if you have sensitive local files
+# that you don't want copied into the build context, you can add them here.
+# .dockerignore
+
+# Temporary files
+*~
+*.swp
+*.bak

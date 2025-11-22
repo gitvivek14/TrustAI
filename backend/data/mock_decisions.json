@@ -1,0 +1,14 @@
+[
+  {
+    "request_id":"req_001",
+    "user_id":"user_001",
+    "requested_amount":200000,
+    "timestamp":"2025-11-12T12:34:56Z"
+  },
+  {
+    "request_id":"req_002",
+    "user_id":"user_002",
+    "requested_amount":50000,
+    "timestamp":"2025-11-10T08:12:00Z"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "user_id":"user_001",
+    "credit_score":712,
+    "dti_ratio":0.43,
+    "late_payments_6m":1,
+    "employment_months":18,
+    "monthly_income":45000,
+    "existing_loans":2,
+    "location":"PUNE"
+  },
+  {
+    "user_id":"user_002",
+    "credit_score":640,
+    "dti_ratio":0.52,
+    "late_payments_6m":0,
+    "employment_months":36,
+    "monthly_income":30000,
+    "existing_loans":1,
+    "location":"DELHI"
+  }
+]
