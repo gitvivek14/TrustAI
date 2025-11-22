@@ -46,7 +46,7 @@ Not a generic chatbot—an intelligent companion.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -96,7 +96,7 @@ graph TD
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js **v16+**
@@ -105,7 +105,7 @@ graph TD
 
 ---
 
-### 1️⃣ Start the ML Microservice (The Brain)
+### 1. Start the ML Microservice (The Brain)
 
 ```bash
 cd backend/models
@@ -116,23 +116,23 @@ source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install flask pandas scikit-learn shap joblib requests
 
 python server.py
-# 🚀 Python Server Listening on 8000...
+# Python Server Listening on 8000...
 ```
 
 ---
 
-### 2️⃣ Start the Backend (The Orchestrator)
+### 2. Start the Backend (The Orchestrator)
 
 ```bash
 cd backend
 npm install
 node server.js
-# 🚀 Backend running on 5000 with Memory DB
+# Backend running on 5000 with Memory DB
 ```
 
 ---
 
-### 3️⃣ Start the Frontend (The Interface)
+### 3. Start the Frontend (The Interface)
 
 ```bash
 cd frontend
@@ -166,7 +166,7 @@ npm run dev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 trustai/
@@ -199,10 +199,10 @@ trustai/
 
 ---
 
-## 📄 License
+## License
 MIT License — free for personal & commercial use
 
 ---
 
-## 👥 Authors
+## Authors
 **TrustAI Team**
